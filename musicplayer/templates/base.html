@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/player.css' %}">
+    {% block title %}
+    <title>Home</title>
+    {% endblock title %}
+</head>
+<header>
+    <nav>
+      <a href="{% url 'player:index' %}"><b>Awesome mix</b></a>
+      <a href="{% url 'player:index' %}">Home</a>
+      <a href="{% url 'player:upload' %}">Upload</a>
+        <a class="auth" href="{% url 'player:logout' %}" >Quit</a>
+        <a class="auth" href="{% url 'player:login' %}" >Auth</a>
+      <a class="auth" href="{% url 'player:signup' %}" >Registration</a>
+
+
+    </nav>
+  </header>
+<body>
+      <main>
+        {% block content %}{% endblock %}
+      </main>
+      {% block footer %}
+
+    {% endblock footer %}
+</body>
+</html>

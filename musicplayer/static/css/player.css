@@ -1,0 +1,108 @@
+/* Global styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  header {
+    background-color: #f1f1f1;
+    padding: 1em;
+  }
+
+  nav a {
+    color: #000;
+    text-decoration: none;
+    margin-right: 1em;
+  }
+  .parent {
+  text-align: center;
+  }
+  .auth {
+    float:right;
+  }
+  main {
+    position: relative;
+    min-height: 100%;
+    height: auto !important;
+    _height: 100%;
+  }
+
+
+
+/* Audio player styles */
+audio {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* Song title styles */
+h2 {
+    margin-bottom: 0;
+    color: #333;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* Artist name styles */
+p {
+    margin-top: 0;
+    color: #999;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* Playlist styles */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Upload form styles */
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #545656;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 20%;
+}
+
+input[type="submit"]:hover {
+    background-color: #878a8a;
+    margin-left: 20%;
+}
+.footer-margin {
+        position: static;
+        width: auto;
+        border: 0px dotted maroon;
+        clear: both;
+        margin: 0;
+        padding: 0;
+        height: 2;
+        font-size: 1px;
+        height: 400px;
+}
