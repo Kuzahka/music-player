@@ -18,7 +18,7 @@ git clone https://github.com/Kuzahka/voice-text.git
 ```
 
 ```
-cd Shum
+cd musicplayer
 ```
 
 Cоздать и активировать виртуальное окружение:
@@ -46,5 +46,5 @@ pip install -r requirements.txt
 Запустить проект:
 
 ```
-flask run
+python manage.py runserver
 ```
